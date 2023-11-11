@@ -8,7 +8,7 @@ ls /sys/class/net | grep -v lo
 read -p "Enter the physical interface name: " physical_interface
 
 # Read API key from user
-api_key="cbea0bb55cea8d9c359cf9b1eb8aaf49b98231c7"
+api_key="004f429d93b4942cb2246c90d6453652124b0cf0"
 
 # Set physical interface up
 sudo ip link set "$physical_interface" up
@@ -17,10 +17,10 @@ sudo ip link set "$physical_interface" up
 read -p "Enter the number of PPPoE connections you want to create: " num_pppoe
 
 # Read username from user
-username="t008_gftth_nghiallh4"
+username="t008_gftth_nguyenhtc3"
 
 # Read password from user (password won't be displayed)
-password="QMHCK8"
+password="MDFXO6"
 echo
 
 # Set credentials in pap-secrets
